@@ -14,7 +14,7 @@ public:
 	Companion* getCompanion()
 	{
 		return &companion;
-	};
+	}
 
 private:
 	Companion companion;

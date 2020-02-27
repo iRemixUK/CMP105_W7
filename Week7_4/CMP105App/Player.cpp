@@ -40,7 +40,7 @@ void Player::update(float dt)
 
 Bullet* Player::spawn(sf::Vector2f pos)
 {
-	Bullet newBullet;
-	newBullet.setPosition(pos);
-	return &newBullet;
+	Bullet* b = new Bullet;
+	b->setPosition(pos);
+	return b;
 }
